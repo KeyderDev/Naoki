@@ -1035,6 +1035,15 @@ ul.social_icon li a:hover {
      right: -400px;
 }
 
+.discord_img img {
+     position: relative;
+     width: 50%;
+     height: 100%;
+     display: block;
+     top: -40px;
+     right: -500px;
+}
+
 /*Fin de Imagenes*/
 
 
