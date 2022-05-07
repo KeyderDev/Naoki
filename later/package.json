@@ -1,0 +1,31 @@
+{
+    "name": "naokiweb",
+    "version": "0.0.1",
+    "description": "A simple Node app built on Express, instantly up and running.",
+    "main": "node index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "discord.js": "^12.5.3",
+      "express": "^4.17.1",
+      "express-handlebars": "^5.3.2",
+      "express-session": "^1.17.2",
+      "hbs": "^4.1.2",
+      "passport": "^0.4.1",
+      "passport-discord": "^0.1.4",
+      "sweetalert2": "^11.1.2"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.6"
+    },
+    "repository": {
+      "url": "https://glitch.com/edit/#!/hello-express"
+    },
+    "license": "MIT",
+    "keywords": [
+      "node",
+      "glitch",
+      "express"
+    ]
+  }
