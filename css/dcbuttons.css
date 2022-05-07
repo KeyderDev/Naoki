@@ -77,3 +77,11 @@ background-color:#5865f2;
 .btn-notavailable:hover{
     background-color: #a8b0cb;
 }
+
+.btn-leermas{
+    background-color: #10529f;
+}
+
+.btn-leermas:hover{
+    background-color: #11437f;
+}
