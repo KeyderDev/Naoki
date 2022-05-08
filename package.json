@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "aoi.js": "^5.1.2",
     "discord.js": "^13.6.0"
   }
 }
