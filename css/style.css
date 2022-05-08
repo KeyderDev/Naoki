@@ -1097,6 +1097,17 @@ ul.social_icon li a:hover {
      width: 100%;
 }
 
+/*Ocultar scroll para chrome, safari y opera*/
+.menu__side::-webkit-scrollbar{
+     display: none;
+ }
+ 
+ /*Ocultar scroll para IE, Edge y Firefox*/
+ .menu__side{
+     -ms-overflow-style: none;
+     scrollbar-width: none;
+ }
+
 
 
 
