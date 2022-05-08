@@ -27,12 +27,12 @@ var fecha = hoy.getDate() + '-' + ( hoy.getMonth() + 1 ) + '-' + hoy.getFullYear
 				public_flags: 131328,
 			},
 			content: `**Nuevo Pedido!**\n
-			\`\`\`fix\n
-			${user}\n
-			=======\n
-			${req}\n
-			\`\`\`\nHora: ${hora}\nFecha: ${fecha}\n` 
-			+ "~~_ _                                                                                                  _ _~~",
+\`\`\`fix\n
+${user}\n
+=======\n
+${req}\n
+\`\`\`\nHora: ${hora}\nFecha: ${fecha}\n` 
++ "~~_ _                                                                                                  _ _~~",
 
 		}
 	);
