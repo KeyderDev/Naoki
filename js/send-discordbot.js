@@ -22,14 +22,19 @@ function post() {
 				avatar: 'b004ec1740a63ca06ae2e14c5cee11f3',
 				public_flags: 131328,
 			},
-			content: `**Usuario:** ${user} 
+			content: `
+**Nuevo Pedido!**
+\`\`\`
+**Usuario:** ${user} 
 **Pedido:** ${req}
 **Tipo de pedido:** Bot de Discord
-
+\`\`\`
 
 
 `,
 
 		}
 	);
+	setTimeout( function() { window.location.href = "./gracias.html"; }, 1000 );
 }
+
