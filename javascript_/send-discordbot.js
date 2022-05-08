@@ -6,7 +6,7 @@ function post() {
 		return alert('Quien envia la solicitud?');
 	}
 		
-	var hoy = new Date():
+	var hoy = new Date();
 var hora = hoy.getHours() + ':' + hoy.getMinutes() + ':' + hoy.getSeconds();
 var fecha = hoy.getDate() + '-' + ( hoy.getMonth() + 1 ) + '-' + hoy.getFullYear();
 	axios.post(
