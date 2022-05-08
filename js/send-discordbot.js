@@ -23,7 +23,13 @@ function post() {
 				public_flags: 131328,
 			},
 			content: `**Usuario:** ${user} 
-**Pedido:** ${req}`,
+**Pedido:** ${req}
+**Tipo de pedido:** Bot de Discord
+
+
+
+`,
+
 		}
 	);
 }
