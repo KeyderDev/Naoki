@@ -85,3 +85,11 @@ background-color:#5865f2;
 .btn-leermas:hover{
     background-color: #11437f;
 }
+
+.btn-send{
+    background-color:#2d7d46;
+}
+
+.btn-send:hover{
+    background-color:#215b32;
+}
