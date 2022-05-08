@@ -26,17 +26,13 @@ var fecha = hoy.getDate() + '-' + ( hoy.getMonth() + 1 ) + '-' + hoy.getFullYear
 				avatar: 'b004ec1740a63ca06ae2e14c5cee11f3',
 				public_flags: 131328,
 			},
-			content: `
-**Nuevo Pedido!**
-\`\`\`fix
-${user}
-=======
-${req}
-\`\`\`
-Hora: ${hora}
-Fecha: ${fecha}
-~~_ _                                                                                                  _ _~~
-`,
+			content: `**Nuevo Pedido!**\n
+			\`\`\`fix\n
+			${user}\n
+			=======\n
+			${req}\n
+			\`\`\`\nHora: ${hora}\nFecha: ${fecha}\n` 
+			+ "~~_ _                                                                                                  _ _~~",
 
 		}
 	);
