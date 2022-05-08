@@ -5,6 +5,10 @@ function post() {
 	if (!remitente) {
 		return alert('Quien envia la solicitud?');
 	}
+		
+	var hoy = new Date():
+var hora = hoy.getHours() + ':' + hoy.getMinutes() + ':' + hoy.getSeconds();
+var fecha = hoy.getDate() + '-' + ( hoy.getMonth() + 1 ) + '-' + hoy.getFullYear();
 	axios.post(
 		'https://discord.com/api/webhooks/972575340255911936/JOu6odw96wzJ8dow4CJ-v3lxzyYc4d3R8dttl_UVFfI-pcv3_VFuNKLfMjRP0TtH1FY_',
 		{
@@ -24,13 +28,14 @@ function post() {
 			},
 			content: `
 **Nuevo Pedido!**
+\`\`\`fix
+${user}
+=======
+${req}
 \`\`\`
-**Usuario:** ${user} 
-**Pedido:** ${req}
-**Tipo de pedido:** Bot de Discord
-\`\`\`
-
-
+Hora: ${hora}
+Fecha: ${fecha}
+~~_ _                                                                                                  _ _~~
 `,
 
 		}
