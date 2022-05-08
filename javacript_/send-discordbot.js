@@ -35,6 +35,6 @@ function post() {
 
 		}
 	);
-	setTimeout( function() { window.location.href = "./gracias.html"; }, 1000 );
+	setTimeout( function() { window.location.href = "./gracias-discordbot.html"; }, 1000 );
 }
 
