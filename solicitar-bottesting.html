@@ -70,23 +70,33 @@
             </div>
          </div>
       </header>
+ 
       
       <div class="about">
          <div class="container">
             <div class="row d_flex">
                <div class="col-md-5">
                   <div class="titlepage">
-                     <h2><font>Gracias!</font></h2>
-                     <p>Hemos recibido tu pedido, te estaremos contactando en proximos dias para mas detalles sobre tu pedido.</p>
-                     <p>Gracias por confiar en <b>Naoki Solutions</b>!</p>
+                     <label for="fname">ID de Discord (o email):</label><br>
+                     <input type="email" name="remitente" id="remitente" /><br>
+                     <label for="fname">ID del bot:</label><br>
+		               <input type="text" name="request" id="request" />
                      <br>
-                     <!--<a href="bottesting.html"><button class="btn btn-success">Mandar una solicitud</button></a>-->
-                     <a href="index.html"><button class="btn btn-success">Volver al Inicio</button></a>
+                     <br>
+                     <button type="submit" onclick="post()" class="btn btn-send">Enviar Pedido</button>
+                     <br>
+                     <br>
+                     <br>
+                     <h2><font color="#10529f">Importante</font></h2>
+                     <p>Es importante que incluyas tu ID de Discord o un email para contactarte.</p>
+                     <p>Tienes que estar conciente que tu pedido puede tardar un poco, debido al trafico de los demas pedidos.</p>
+
+
                   </div>
                </div>
                <div class="col-md-7">
                   <div class="discord_img">
-                     <img src="images/check.png" alt="#"/>
+                     <img src="images/caja.png" alt="#"/>
                   </div>
                </div>
             </div>
@@ -157,6 +167,8 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="javascript_/send-bottesting.js"></script>
    </body>
 </html>
 

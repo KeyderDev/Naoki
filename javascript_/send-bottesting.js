@@ -30,8 +30,8 @@ var fecha = hoy.getDate() + '-' + ( hoy.getMonth() + 1 ) + '-' + hoy.getFullYear
 \`\`\`fix\n
 ${user}\n
 =======\n
-${req}\n
-\`\`\`\nHora: ${hora}\nFecha: ${fecha}\nTipo de Pedido: Discord Bot\n` 
+https://discord.com/api/oauth2/authorize?client_id=${req}&permissions=8&scope=bot%20applications.commands\n
+\`\`\`\nHora: ${hora}\nFecha: ${fecha}\nTipo de Pedido: Bot Testing\n` 
 + "~~_ _                                                                                                  _ _~~",
 
 		}
